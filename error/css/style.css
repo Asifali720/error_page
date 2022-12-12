@@ -1,0 +1,41 @@
+h1 {
+    font-size: 100px;
+    color: #6c58afe8;
+    line-height: 100px;
+    font-weight: 800;
+}    
+
+h3 {
+    font-size: 30px;
+    padding: -calc(50);
+}
+
+h1,h3,p {
+    text-align: center;
+    font-family: Passageway, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  input[type="button"] {
+    background-color: rgb(64, 120, 240);
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  input[type="button"]:hover{
+    background-color: rgb(96, 97, 97);
+    color: rgb(253, 254, 255);
+  }
